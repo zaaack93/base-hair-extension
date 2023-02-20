@@ -1,0 +1,75 @@
+{%- liquid
+  assign search_type = 'product'
+  if settings.search_articles
+    assign search_type = search_type | append: ',article'
+  endif
+
+  if settings.search_pages
+    assign search_type = search_type | append: ',page'
+  endif
+
+  if settings.search_collections
+    assign search_type = search_type | append: ',collection'
+  endif
+-%}
+<predictive-search>
+  <div id="search-popdown" class="search-popdown" data-search-popdown>
+    <div class="wrapper">
+      <div class="search-popdown__header">
+        <div class="search-popdown__main">
+          <form class="search-popdown__form"
+              action="{{ routes.search_url }}"
+              method="get"
+              role="search">
+            <input type="hidden" name="type" value="{{ search_type }}">
+            <input name="options[prefix]" type="hidden" value="last">
+
+            <button class="search-popdown__form__button" type="submit">
+              <span class="visually-hidden">{{ 'layout.header.search' | t }}</span>
+              {%- if icon_family_text == 'text' -%}
+                {%- assign icon_string_search = 'icon-modern-search' -%}
+              {%- endif -%}
+
+              {%- render 'header-icon', filename: icon_string_search -%}
+            </button>
+
+            <label for="SearchInput" class="visually-hidden">{{ 'general.search.submit' | t }}</label>
+            <input type="search"
+              id="SearchInput"
+              data-predictive-search-input="search-popdown-results"
+              name="q"
+              value="{{ search.terms | escape }}"
+              placeholder="{{ 'general.search.submit' | t }}"
+              aria-label="{{ 'general.search.placeholder' | t }}"
+              role="combobox"
+              aria-expanded="false"
+              aria-owns="predictive-search-results-list"
+              aria-controls="predictive-search-results-list"
+              aria-haspopup="listbox"
+              aria-autocomplete="list"
+              autocorrect="off"
+              autocomplete="off"
+              autocapitalize="off"
+              spellcheck="false">
+          </form>
+
+          <div class="search-popdown__close">
+            <button type="button" class="search-popdown__close__button" data-popdown-close title="{{ 'general.accessibility.close' | t }}">
+              {% render 'icon-close' %}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-popdown__results" id="search-popdown-results">
+        <div class="search__results__outer" data-search-results-outer>
+          <div class="loader search__loader"><div class="loader-indeterminate"></div></div>
+
+          <div class="search__results" data-search-results>
+            {% comment %} Search results append here {% endcomment %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</predictive-search>

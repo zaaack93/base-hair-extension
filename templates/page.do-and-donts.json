@@ -1,0 +1,269 @@
+{
+  "sections": {
+    "f5cdeee6-bf10-431a-91d9-8cca124373c9": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--15927558570166__f5cdeee6-bf10-431a-91d9-8cca124373c9-1669091573725a7a0b-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/Base_Hair_Banners.002.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Do's and Don'ts",
+            "heading_size": 10,
+            "description": "Your guide to getting the most out of your BASE HAIR Extensions",
+            "text_size": 4,
+            "flex_align": "align--middle-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--15927558570166__f5cdeee6-bf10-431a-91d9-8cca124373c9-1669091573725a7a0b-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Image slide",
+            "heading_size": 11,
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--15927558570166__f5cdeee6-bf10-431a-91d9-8cca124373c9-1669091573725a7a0b-0",
+        "template--15927558570166__f5cdeee6-bf10-431a-91d9-8cca124373c9-1669091573725a7a0b-1"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "transition": "slide",
+        "arrows_style": true,
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "9e03567e-dc82-45da-b82e-1492b69e3337": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--15927558570166__9e03567e-dc82-45da-b82e-1492b69e3337-1669091557de137bbc-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Your list of things to ...",
+            "subheading_size": 3,
+            "title": "DO",
+            "heading_size": 8,
+            "text": "<p><strong>DO Brush your hair extensions<\/strong><\/p><p>Brushing your hair 3-4 times a day will help prevent your hair extensions from tangling. Ensure you brush your hair prior to washing and hold the top of the extension before brushing to avoid pulling. We recommend using the Base Hair brush. <\/p><p> <\/p><p><strong>DO Invest in high quality extensions<\/strong><\/p><p>Do your research and invest in high quality hair extensions. Spending the extra money on quality human extensions will result in your hair looking soft and realistic just like your own hair and not to mention they will last much longer than cheap (synthetic) hair extensions. <\/p><p> <\/p><p><strong>DO Use the right products<\/strong><\/p><p>Always apply heat protecting products prior to using any heat styling tools on your hair extensions. Ensure the product you are using is friendly with hair extensions as the wrong product can cause damage to the extension itself or tape adhesive.<\/p><p> <\/p><p><strong>DO Sleep on a silk pillow case<\/strong><\/p><p>Sleeping on a silk pillow case will help to prevent split ends in your hair and extend the life of your hair extensions. With less friction, your hair extensions will have minimal breakage all from the smoothness of silk pillowcase. Check out our Base Hair mulberry silk pillow case!<\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        },
+        "template--15927558570166__9e03567e-dc82-45da-b82e-1492b69e3337-1669091557de137bbc-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8899.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--15927558570166__9e03567e-dc82-45da-b82e-1492b69e3337-1669091557de137bbc-1",
+        "template--15927558570166__9e03567e-dc82-45da-b82e-1492b69e3337-1669091557de137bbc-0"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cfa455f8-6f29-44b0-8bdb-c6a7c21a25ff": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--15927558570166__cfa455f8-6f29-44b0-8bdb-c6a7c21a25ff-1669091557de137bbc-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "DONT",
+            "heading_size": 8,
+            "text": "<p><strong>DON’T Workout with or wet fresh tape-in extensions<\/strong><\/p><p>Washing your hair or excessively sweating 24-48 hours after tape-in hair extension application will prevent the bond to adhere properly. After this timeframe is up you are allowed to resume normal activities. Please always wear a swimming cap to protect your hair from chlorine.<\/p><p> <\/p><p><strong>DON’T Sleep with wet hair<\/strong><\/p><p>Sleeping with wet hair extensions can cause them to dry out and result in frizzy hair. Ideally it’s best to wear a lose braid to bed as this will prevent tangling in your sleep resulting in less damage and hair will be easier to style when you wake in the morning. <\/p><p> <\/p><p><strong>DON’T Colour or cut your hair extensions yourself<\/strong><\/p><p>If you require your hair extensions to be coloured we recommend leaving this to a professional. This will ensure your colour is even and your new extensions won’t be damaged. This also goes for bleaching your extensions! Avoid cutting your own hair or the extensions before\/after they have been installed. Always seek help from a qualified hair professional. <\/p><p> <\/p><p><strong>DON’T Use hydrating products or hair oils<\/strong><\/p><p>Using hydrating shampoos or hair masks will cause split ends and damage to your extensions. Look out for key words on product packaging like “moisturising” or “intensive treatment”. It’s really important that you don’t apply oil or conditioner directly to your scalp as this will prolong the life of your tape and hair extensions. <\/p><p><\/p><p><strong>DON’T Use products that have the following ingredients<\/strong><\/p><p>SLS, Sodium Lauryl Sulfate, Sodium Laureth Sulfate, Alcohol Denat, Ethanol, SD Alcohol 40, Propanol, Isopropyl, and Propyl. <\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        },
+        "template--15927558570166__cfa455f8-6f29-44b0-8bdb-c6a7c21a25ff-1669091557de137bbc-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8317_copy2.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--15927558570166__cfa455f8-6f29-44b0-8bdb-c6a7c21a25ff-1669091557de137bbc-1",
+        "template--15927558570166__cfa455f8-6f29-44b0-8bdb-c6a7c21a25ff-1669091557de137bbc-0"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d15ef0aa-655c-4fce-94e0-930d045ec0ba": {
+      "type": "section-recent-products",
+      "settings": {
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3af81c85-7c74-4dc5-b12f-3a88a38aa16e": {
+      "type": "section-tab-collections",
+      "disabled": true,
+      "blocks": {
+        "e6b31539-d9b9-4307-a7d5-3dfa5e4e9db0": {
+          "type": "collection",
+          "settings": {
+            "title": "HUMAN HAIR",
+            "featured_collection": "human-hair",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--15927558570166__3af81c85-7c74-4dc5-b12f-3a88a38aa16e-16690915561c602f73-1": {
+          "type": "collection",
+          "settings": {
+            "title": "FAUX HAIR",
+            "featured_collection": "faux-hair",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "e6b31539-d9b9-4307-a7d5-3dfa5e4e9db0",
+        "template--15927558570166__3af81c85-7c74-4dc5-b12f-3a88a38aa16e-16690915561c602f73-1"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "stacked",
+        "show_product_count": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "f5cdeee6-bf10-431a-91d9-8cca124373c9",
+    "main",
+    "9e03567e-dc82-45da-b82e-1492b69e3337",
+    "cfa455f8-6f29-44b0-8bdb-c6a7c21a25ff",
+    "d15ef0aa-655c-4fce-94e0-930d045ec0ba",
+    "3af81c85-7c74-4dc5-b12f-3a88a38aa16e"
+  ]
+}

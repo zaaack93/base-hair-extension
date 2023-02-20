@@ -1,0 +1,110 @@
+<div class="IG-cards-main">
+  <div class="IG-cards-inner rdc-p-r">
+    <h2 class="IG-cards-heading rdc-t-c">{{ section.settings.heading }}</h2>
+    <p class="rdc-t-c">{{ section.settings.text }}</p>
+    <div class="IG-cards-slider-outer rdc-p-r">
+      <div class="IG-cards-slider rdc-d-flex">
+        {% for block in section.blocks %}
+       <a href="{{ block.settings.product_link }}" class="IG-cards-card-outer">
+        <div class="rdc-p-r IG-cards-card rdc-p-r">
+          <img class="rdc-w-full" src="{{ block.settings.image | img_url: '500x' }}">
+          <div class="IG-cards-card-inner rdc-p-a rdc-d-flex rdc-w-full">
+            <span class="upper rdc-d-flex">
+              {% render 'icon-instagram' %}<span>{{ block.settings.ig_handle }}</span>
+            </span>
+            <span class="lower rdc-d-flex">
+              <p class="IG-card-link">{{ block.settings.product_info }}</p>
+            </span>
+          </div>
+        </div>
+       </a>
+        {% endfor %}
+      </div>
+    </div>
+
+       <a class="IG-cards-btn hero__btn btn btn--large caps btn--black aos-init aos-animate"
+      href="{% if section.settings.link_url != blank %}{{ section.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}"
+      data-aos="hero"
+      data-aos-anchor="{{ animation_anchor }}"
+      data-aos-order="3">
+      {{ section.settings.button_text }}
+
+      {%- if settings.show_arrow -%}
+        {% render 'icon-arrow-right-alt' %}
+      {%- endif -%}
+    </a>
+
+
+            <div class="IG-navs">
+          <span class="ig-nav prev rdc-p-a rdc-d-flex rdc-ai-c rdc-jc-c">{% render 'icon-chevron-left' %}</span>
+          <span class="ig-nav next rdc-p-a rdc-d-flex rdc-ai-c rdc-jc-c">{% render 'icon-chevron-right' %}</span>
+        </div>
+</div>
+</div>
+
+{% schema %}
+  {
+    "name": "IG Section",
+    "settings": [
+      {
+       "type": "text",
+       "id": "heading",
+       "label": "Heading"
+      },
+      {
+       "type": "textarea",
+       "id": "text",
+       "label": "Text"
+      },
+      {
+       "type": "url",
+       "id": "button_link",
+       "label": "Button link"
+      },
+      {
+       "type": "text",
+       "id": "button_text",
+       "label": "Button text"
+      } 
+    ],
+    "blocks": [
+      {
+        "type": "IG_Block",
+        "name": "IG Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }, 
+          {         
+            "type": "text",
+            "id": "ig_handle",
+            "label": "IG handle"
+          }, 
+          {         
+            "type": "text",
+            "id": "product_info",
+            "label": "Product info"
+          },
+          {
+            "type": "url",
+            "id": "product_link",
+            "label": "Product link"            
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "IG Section"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

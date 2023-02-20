@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "3657f82b-1952-4e32-8d0a-5590c41783fd": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BaseHair-0634_website.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "Become a BASE HAIR Wholesaler",
+        "heading_size": 5,
+        "description": "To register your interest about stocking Base Hair, please fill out the form below and we will be in contact with you.",
+        "text_size": 4,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "7fbff4b3-98fe-488a-83eb-9ab5a879eaee": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "They say diamonds are a girls best friend. They have obviously never owned Base Hair Extensions.",
+            "text_size": 7
+          }
+        },
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP ALL",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-1",
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7": {
+      "type": "section-reviews",
+      "disabled": true,
+      "blocks": {
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-0": {
+          "type": "review",
+          "settings": {
+            "title": "Jeremy Usborne",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        },
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-1": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "title": "Willy Bridge",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        },
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-2": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "title": "Kenneth Powell",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-0",
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-1",
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-2"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
+        "text_align": "text-left",
+        "text_size": 4,
+        "bg_color": "",
+        "color": "",
+        "card_bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "d8695fcb-ec31-43e2-befa-dc029aae087b": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "all-extensions",
+        "grid": 3,
+        "rows": 2,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "3657f82b-1952-4e32-8d0a-5590c41783fd",
+    "main",
+    "7fbff4b3-98fe-488a-83eb-9ab5a879eaee",
+    "c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7",
+    "d8695fcb-ec31-43e2-befa-dc029aae087b"
+  ]
+}

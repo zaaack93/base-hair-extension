@@ -1,0 +1,370 @@
+.rdc-d-flex {display:flex}
+.rdc-ai-c {align-items: center}
+.rdc-jc-c {justify-content: center}
+.rdc-jc-e {justify-content: flex-end}
+.rdc-jc-sb {justify-content: space-between}
+
+.rdc-c-p {cursor: pointer}
+
+.rdc-w-25 {width:25%}
+.rdc-w-75 {width:75%}
+.rdc-w-40 {width:40%}
+.rdc-w-60 {width:60%}
+.rdc-w-full {width:100%}
+
+.rdc-d-none {display: none}
+
+.rdc-px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.rdc-m-0 {margin:0}
+
+.rdc-p-a {position: absolute}
+.rdc-p-r {position: relative}
+
+.rdc-t-c {text-align: center}
+
+.rdc-cart-form .product__submit__item {padding: 0}
+.rdc-cart-form .product__submit {width: 100%}
+.rdc-cart-form .select-popout.select-popout--small {
+  margin: 0;
+  width: 20%;
+  padding-right: 10px;
+}
+.rdc-cart-form .select-popout__toggle {height: 100%}
+.rdc-cart-form .product__submit__buttons {width: 100%}
+.product__title__wrapper {padding: 0}
+.bh-product-benefits li::before {
+    content: url(https://cdn.shopify.com/s/files/1/0268/6012/6390/files/Group_39874.svg);
+    display: flex;
+    margin-right: 10px;
+    transform: translateY(20%);
+}
+.bh-product-benefits li {
+    display: flex;
+    align-items: baseline;
+      margin-bottom: 10px;
+}
+.bh-product-benefits ul {margin: 0}
+.bh-product-benefits p {margin-bottom: 20px}
+
+.rdc-details.product__content fieldset.radio__fieldset {
+    display: flex;
+    flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.rdc-details .radio__button {padding: 5px 8px 5px 0}
+.rdc-details .radio__fieldset .radio__button label {
+    background-color: #F5F4F4;
+    border: none;
+}
+span.bh-option-name {margin-left: 15px}
+
+.bh-option-guide span {text-decoration: underline}
+
+.bh-option-guide-box {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+  align-items: center;
+    transition: all 1s;
+    overflow: hidden;
+    background-color: #00000030;
+}
+
+.bh-option-guide-box-inner {
+    background-color: #fff;
+    max-width: 500px;
+    height: 90%;
+    margin-top: 50px;
+    overflow-y: scroll;
+  padding: 30px;
+  width: 95%;
+}
+
+.bh-option-guide-box-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  cursor: pointer;
+}
+
+
+
+
+.bh-option-guide-box.rdc-d-none {
+  display: none;
+}
+span.bh-og-close {
+    top: 10px;
+    right: 10px;
+}
+
+.IG-cards-main {padding: 5%}
+
+span.rdc-color-swatch {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  border-radius: 100px;
+}
+
+.swatch__button--circle input:checked~label:after {
+    top: -3px;
+    left: -3px;
+    width: 46px;
+    height: 46px;
+  border-color: #000;
+}
+
+.IG-cards-card-inner {
+    top: 0;
+    left: 0;
+    flex-flow: column;
+    height: 100%;
+    justify-content: space-between;
+  padding: 20px;
+}
+.IG-cards-slider {
+    width: fit-content;
+  transition: all 1s;
+}
+
+.IG-cards-card-outer {
+  width: 22.5vw;
+padding: 1vw;
+}
+
+.IG-cards-slider-outer {
+    width: 90vw;
+  overflow: hidden;
+}
+
+h2.IG-cards-heading {
+    font-size: 38px;
+}
+a.IG-cards-btn {
+    display: flex;
+    margin: 40px auto 0;
+}
+a.IG-cards-btn span {
+    color: #fff;
+    padding: 16px 22px;
+    background-color: #000;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+span.ig-nav {
+    top: 60%;
+    background-color: #000;
+    border-radius: 100%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+span.ig-nav.prev {
+  left: 0;
+transform: translate(-8px, -50%);
+}
+span.ig-nav.next {
+  right: 0;
+transform: translate(8px, -50%);
+}
+span.ig-nav svg {
+  width: 15px;
+transition: all .2s;
+}
+
+span.ig-nav.next:hover svg {
+    transform: translateX(4px);
+}
+
+span.ig-nav.prev:hover svg {
+    transform: translateX(-4px);
+}
+.IG-cards-inner p {
+    max-width: 900px;
+    margin: 0 auto 40px;
+  line-height: 1.5;
+}
+
+.IG-cards-card-inner svg {
+    margin-right: 6px;
+}
+
+.IG-cards-card-inner span.upper *,
+.IG-cards-card-inner span.lower * {
+    font-size: 16px;
+  color: #fff;
+}
+
+.rdc-details .radio__fieldset .radio__button label {padding: 15px 0}
+.rdc-details .radio__fieldset .radio__button label span {padding: 15px 18px}
+
+span.swatch__button.swatch__button--circle {
+    width: 40px;
+    height: 40px;
+  margin-bottom: 10px;
+}
+.swatch__button--circle input~label {
+    width: 40px;
+    height: 40px;
+}
+
+.rdc-details .form__width {--form-gap: 10px !important}
+.product__selectors {margin: 20px 0}
+.bh-option-title-main {
+    margin-bottom: 10px;
+}
+
+.rdc-details .product__icon__row {margin: 20px 0}
+
+  .bh-media-mc {
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 99999;
+}
+.bh-media-bottom {
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    height: 30px;
+      z-index: 3;
+}  
+    .bh-media-mc span {
+      color: #fff;
+    font-size: 14px;
+     background-color: #0000007f;
+      height: 100%;
+      padding: 0 20px;
+    }
+
+.IG-cards-card-outer:hover .IG-cards-card-inner span.lower * {
+    text-decoration: underline;
+}
+.IG-cards-card-inner span.lower * {
+    margin: 0;
+}
+
+.accordion-content {padding-bottom: 30px}
+@media only screen and (min-width: 750px) {
+  .bh-media-mc span {
+    justify-content: center;
+  text-align: center;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 989px) {
+h2.IG-cards-heading {font-size: 30px}
+}
+
+@media only screen and (max-width: 749px) {
+div#TemplateProduct {padding: 0}
+
+  .product__images {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+header.theme__header.header__icons--modern {border-bottom: 0}
+.rdc-details h1 {font-size: 25px}  
+
+.rdc-product-images .product__thumbs {
+  min-height: unset;
+flex: unset;
+}
+
+.rdc-product-images .product__thumb {
+  padding: 0;
+  margin: 0 3px 0 0;
+}
+
+.rdc-product-images .product__thumb:last-of-type {margin:0}
+  
+.rdc-product-images .product__thumb img {display: none}  
+.rdc-product-images .product__thumb a {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 100px;
+      color: #fff;
+}
+  .rdc-product-images .product__thumb__link {
+background-color: transparent;
+}
+
+.rdc-product-images .product__thumb.is-active {
+  background-color: #fff;
+  border-radius: 100px;
+}
+.rdc-product-images .product__thumb.is-active a{border-color: #fff}
+.rdc-product-images .product__thumbs__holder {
+  width: 100%;
+  margin: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rdc-product-images .product__thumbs__holder:after {display: none}
+.bh-media-bottom .product__thumbs {margin: 0}
+.rdc-product-images .product__thumb .icon-media-video {display: none}
+.product__thumb.is-active:after {display: none}
+.product__wrapper {
+  margin: 0 20px;
+padding-bottom: 20px;
+}
+  
+  .bh-option-guide-box {
+    width: 100%;
+    max-width: none;
+}
+
+
+  .product__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  .product__selectors {margin: 15px 0 5px}
+
+  .rdc-details .selector-wrapper {
+    padding-right: 0;
+}
+  .rdc-details span.radio__button:last-of-type {
+    padding-right: 0;
+}
+
+  .rdc-details .radio__fieldset .radio__button label span {padding: 15px}
+  .swatch__button--circle:last-of-type {margin: 0}
+  .swatch__button--circle {margin-right: 11px}
+
+
+.IG-cards-slider-outer {
+    overflow-x: scroll;
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+  .IG-cards-card-outer {
+    width: 80vw;
+    max-width: 400px;
+}
+
+  .IG-navs {display: none}
+  
+}

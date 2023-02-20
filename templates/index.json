@@ -1,0 +1,878 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "left-center",
+            "image": "shopify:\/\/shop_images\/IMG_8317_copy2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/IMG_8317_copy2.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": true,
+            "title": "LUXURIOUS HUMAN HAIR EXTENSIONS",
+            "heading_size": 6,
+            "description": "Real Hair for Real Women",
+            "text_size": 3,
+            "flex_align": "align--bottom-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "Shop All Hair Extensions",
+            "link": "shopify:\/\/collections\/all-products",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "transition": "slide",
+        "arrows_style": false,
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "84df2acd-060f-4ea8-87f4-fe6be6bb1859": {
+      "type": "section-collections-list",
+      "blocks": {
+        "template--15900897247414__84df2acd-060f-4ea8-87f4-fe6be6bb1859-167685216216e7b34a-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "clip-in-extensions",
+            "title": ""
+          }
+        },
+        "template--15900897247414__84df2acd-060f-4ea8-87f4-fe6be6bb1859-167685216216e7b34a-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-pony",
+            "title": "PONYTAIL EXTENSIONS"
+          }
+        },
+        "template--15900897247414__84df2acd-060f-4ea8-87f4-fe6be6bb1859-167685216216e7b34a-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-halo",
+            "title": "HALO EXTENSIONS"
+          }
+        },
+        "template--15900897247414__84df2acd-060f-4ea8-87f4-fe6be6bb1859-167685216216e7b34a-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "faux-hair",
+            "title": "FAUX EXTENSIONS"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897247414__84df2acd-060f-4ea8-87f4-fe6be6bb1859-167685216216e7b34a-0",
+        "template--15900897247414__84df2acd-060f-4ea8-87f4-fe6be6bb1859-167685216216e7b34a-1",
+        "template--15900897247414__84df2acd-060f-4ea8-87f4-fe6be6bb1859-167685216216e7b34a-2",
+        "template--15900897247414__84df2acd-060f-4ea8-87f4-fe6be6bb1859-167685216216e7b34a-3"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 1,
+        "enable_slider": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "48d61a5a-1367-4bda-894d-736c3d2fb9a0": {
+      "type": "section-press",
+      "blocks": {
+        "template--15900897247414__48d61a5a-1367-4bda-894d-736c3d2fb9a0-1674449097b3d8a927-1": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p>\"Speaking to the growing need for and use of hair extensions to add versatility to the hair of both A-listers and salon clients, Aussie superstar, actress and model Samara Weaving was styled using Base Hair Extensions by Global Celebrity Hairstylist and Director, Ken Arthur.\"<\/p>",
+            "logo": "shopify:\/\/shop_images\/SI-logo-main.webp",
+            "logo_width": 130
+          }
+        },
+        "template--15900897247414__48d61a5a-1367-4bda-894d-736c3d2fb9a0-1674449097b3d8a927-0": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p>\"The Wave by Base Hair is the perfect tool to create glamourous, boho or mermaid waves that last all day\"<\/p>",
+            "logo": "shopify:\/\/shop_images\/Marie_Claire_Magazine_logo_svg.png",
+            "logo_width": 130
+          }
+        },
+        "template--15900897247414__48d61a5a-1367-4bda-894d-736c3d2fb9a0-1674449097b3d8a927-2": {
+          "type": "logo-item",
+          "disabled": true,
+          "settings": {
+            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
+            "logo_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897247414__48d61a5a-1367-4bda-894d-736c3d2fb9a0-1674449097b3d8a927-1",
+        "template--15900897247414__48d61a5a-1367-4bda-894d-736c3d2fb9a0-1674449097b3d8a927-0",
+        "template--15900897247414__48d61a5a-1367-4bda-894d-736c3d2fb9a0-1674449097b3d8a927-2"
+      ],
+      "settings": {
+        "title": "",
+        "logo_opacity": 60,
+        "bg_color": "#f7f7f7",
+        "color": "#000000",
+        "padding_top": 20,
+        "padding_bottom": 45
+      }
+    },
+    "docs": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Newly Updated",
+            "text_size": 3
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Broadcast Documentation",
+            "text_size": 7
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Broadcast has been extensively documented to help you learn what's possible and get the most out of the theme.  Learn how to set up advanced menus, color swatches, sophisticated cart upsells, and more.<\/p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "See the new Broadcast docs",
+            "button_url": "https:\/\/broadcast.invisiblethemes.com\/",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "tabs": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "tabs-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "title": "TAPE",
+            "featured_collection": "tape-hair-extensions",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "b42d90d0-492a-4847-bfb8-413cd00b22d7": {
+          "type": "collection",
+          "settings": {
+            "title": "Human Hair",
+            "featured_collection": "human-hair",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/BaseHair-0634_website.jpg",
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "Shop Human Hair",
+            "link": "shopify:\/\/collections\/human-hair",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        },
+        "tabs-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Faux Hair",
+            "featured_collection": "faux-hair",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/36530230-95ad-4d7b-b520-a5d9c5eeb208_80477aae-c360-4dd3-a878-f4ab70becaac.jpg",
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "Shop Faux Hair",
+            "link": "shopify:\/\/collections\/faux-hair",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "tabs-0",
+        "b42d90d0-492a-4847-bfb8-413cd00b22d7",
+        "tabs-1"
+      ],
+      "settings": {
+        "title": "Shop Best Sellers",
+        "text_alignment": "stacked",
+        "show_product_count": false,
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1c281aac-df76-435f-9214-4826ba0c544c": {
+      "type": "section-announcement",
+      "blocks": {
+        "template--15900897247414__1c281aac-df76-435f-9214-4826ba0c544c-166917422723fa47bc-3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>They say diamonds are a girls best friend. They have obviously never owned Base Hair Extensions.<\/strong><\/p>",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--15900897247414__1c281aac-df76-435f-9214-4826ba0c544c-166917422723fa47bc-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Make an announcement<\/strong> | Target to specific devices or referrers<\/p>",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--15900897247414__1c281aac-df76-435f-9214-4826ba0c544c-166917422723fa47bc-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Create a free shipping countdown<\/strong><\/p>",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--15900897247414__1c281aac-df76-435f-9214-4826ba0c544c-166917422723fa47bc-2": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "show_wheel": false,
+            "message": "Spend ||amount|| more for free shipping.",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897247414__1c281aac-df76-435f-9214-4826ba0c544c-166917422723fa47bc-3",
+        "template--15900897247414__1c281aac-df76-435f-9214-4826ba0c544c-166917422723fa47bc-0",
+        "template--15900897247414__1c281aac-df76-435f-9214-4826ba0c544c-166917422723fa47bc-1",
+        "template--15900897247414__1c281aac-df76-435f-9214-4826ba0c544c-166917422723fa47bc-2"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "slider_speed": 7,
+        "marquee_speed": 100,
+        "bg_color": "#000000",
+        "color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "702301e7-215a-45e0-9828-60167f0439bb": {
+      "type": "IG-section",
+      "disabled": true,
+      "blocks": {
+        "63f435b6-c29e-4017-a65a-61ac44bb5d85": {
+          "type": "IG_Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ig-image-1.png",
+            "ig_handle": "lexi_grace",
+            "product_info": "The Pony - Colour 24",
+            "product_link": "shopify:\/\/products\/clip-in-hair-extensions-1"
+          }
+        },
+        "5481f64a-5dfe-4a22-8fe4-3b084fd90556": {
+          "type": "IG_Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ig-image-2.png",
+            "ig_handle": "nicolethorne",
+            "product_info": "Invisible Weft - Colour 1",
+            "product_link": ""
+          }
+        },
+        "46efa1bc-4f53-4712-a4dc-abae433dd194": {
+          "type": "IG_Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ig-image-3_7acd0d2d-703c-4ce9-8bee-f8098d829401.png",
+            "ig_handle": "lexi_grace",
+            "product_info": "The Pony - Colour 24",
+            "product_link": "shopify:\/\/products\/clip-in-hair-extensions-1"
+          }
+        },
+        "72bbb790-5165-464c-aa04-693f2103836f": {
+          "type": "IG_Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ig-image-4_7a94a3ac-0384-4b39-84d4-8a083adee2b0.png",
+            "ig_handle": "lexi_grace",
+            "product_info": "The Pony - Colour 24",
+            "product_link": "shopify:\/\/products\/clip-in-hair-extensions-1"
+          }
+        },
+        "36cd52d4-967a-43c2-a029-e8db4655eb95": {
+          "type": "IG_Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ig-image-1.png",
+            "ig_handle": "lexi_grace",
+            "product_info": "The Pony - Colour 24",
+            "product_link": "shopify:\/\/products\/clip-in-hair-extensions-1"
+          }
+        },
+        "c6d6f460-5fc7-46f8-8008-83aaf04761eb": {
+          "type": "IG_Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ig-image-2.png",
+            "ig_handle": "lexi_grace",
+            "product_info": "The Pony - Colour 24",
+            "product_link": "shopify:\/\/products\/clip-in-hair-extensions-1"
+          }
+        },
+        "64515f0c-952d-4c2c-89db-255c17367f1c": {
+          "type": "IG_Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ig-image-3_7acd0d2d-703c-4ce9-8bee-f8098d829401.png",
+            "ig_handle": "lexi_grace",
+            "product_info": "The Pony - Colour 24",
+            "product_link": "shopify:\/\/products\/clip-in-hair-extensions-1"
+          }
+        },
+        "2fddef63-c2b6-4289-ab13-aeb27ca641d2": {
+          "type": "IG_Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ig-image-4_7a94a3ac-0384-4b39-84d4-8a083adee2b0.png",
+            "ig_handle": "lexi_grace",
+            "product_info": "The Pony - Colour 24",
+            "product_link": "shopify:\/\/products\/clip-in-hair-extensions-1"
+          }
+        }
+      },
+      "block_order": [
+        "63f435b6-c29e-4017-a65a-61ac44bb5d85",
+        "5481f64a-5dfe-4a22-8fe4-3b084fd90556",
+        "46efa1bc-4f53-4712-a4dc-abae433dd194",
+        "72bbb790-5165-464c-aa04-693f2103836f",
+        "36cd52d4-967a-43c2-a029-e8db4655eb95",
+        "c6d6f460-5fc7-46f8-8008-83aaf04761eb",
+        "64515f0c-952d-4c2c-89db-255c17367f1c",
+        "2fddef63-c2b6-4289-ab13-aeb27ca641d2"
+      ],
+      "settings": {
+        "heading": "BASEHAIR BEAUTIES",
+        "text": "Our community is hard to miss. You’ve probably double-taked a BASEHAIR babe yourself. \nIf you are lacking hair inspo, check out some of our community flaunting their BASEHAIR Extensions below.",
+        "button_link": "shopify:\/\/collections\/all-products",
+        "button_text": "SHOP ALL EXTENSIONS"
+      }
+    },
+    "logos": {
+      "type": "section-press",
+      "disabled": true,
+      "blocks": {
+        "logos-0": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
+            "logo_width": 100
+          }
+        },
+        "logos-1": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
+            "logo_width": 100
+          }
+        },
+        "logos-2": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
+            "logo_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "logos-0",
+        "logos-1",
+        "logos-2"
+      ],
+      "settings": {
+        "title": "Press",
+        "logo_opacity": 60,
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 46,
+        "padding_bottom": 46
+      }
+    },
+    "30e6a202-ebe1-416e-b6ba-6107cf0331b9": {
+      "type": "section-reviews",
+      "blocks": {
+        "a3f003ac-89f7-4a10-955b-e35af86c6059": {
+          "type": "review",
+          "settings": {
+            "title": "Christina Sikalias",
+            "subheading": "Makeup Artist & Educator",
+            "review_text": "I'm OBSESSED with these and the quality feels really AMAZING.",
+            "featured_image": "shopify:\/\/shop_images\/93EDEFB4-0C9D-4654-ACB4-373D1B703651.jpg",
+            "review_url": ""
+          }
+        },
+        "template--15900897247414__30e6a202-ebe1-416e-b6ba-6107cf0331b9-16666612279249236f-0": {
+          "type": "review",
+          "settings": {
+            "title": "Andi Asamro @andiasmarohair",
+            "subheading": "Celebrity Hair Stylist",
+            "review_text": "The models hair was very thin and I didn't even use a whole packet.",
+            "featured_image": "shopify:\/\/shop_images\/andi.jpg",
+            "review_url": ""
+          }
+        },
+        "template--15900897247414__30e6a202-ebe1-416e-b6ba-6107cf0331b9-16666612279249236f-1": {
+          "type": "review",
+          "settings": {
+            "title": "Yas",
+            "subheading": "@dollfacebyyas",
+            "review_text": "I'm on my third retape and they still look and feel brand new.",
+            "featured_image": "shopify:\/\/shop_images\/dollfacebyyas.jpg",
+            "review_url": ""
+          }
+        },
+        "template--15900897247414__30e6a202-ebe1-416e-b6ba-6107cf0331b9-16666612279249236f-2": {
+          "type": "review",
+          "settings": {
+            "title": "Nicole Thorne @nicolethorne",
+            "subheading": "Celebrity",
+            "review_text": "In love with Base Hair extensions.",
+            "featured_image": "shopify:\/\/shop_images\/0-1.jpg",
+            "review_url": ""
+          }
+        },
+        "19607e42-7a39-4336-9ec4-560b4729f11c": {
+          "type": "review",
+          "settings": {
+            "title": "Jessica Brody @jessica_brody",
+            "subheading": "Celebrity",
+            "review_text": "My extensions were amazing, like the best I have ever had.",
+            "featured_image": "shopify:\/\/shop_images\/jess_67018c70-b0f0-4edb-8e38-59de0fa199b5.jpg",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "a3f003ac-89f7-4a10-955b-e35af86c6059",
+        "template--15900897247414__30e6a202-ebe1-416e-b6ba-6107cf0331b9-16666612279249236f-0",
+        "template--15900897247414__30e6a202-ebe1-416e-b6ba-6107cf0331b9-16666612279249236f-1",
+        "template--15900897247414__30e6a202-ebe1-416e-b6ba-6107cf0331b9-16666612279249236f-2",
+        "19607e42-7a39-4336-9ec4-560b4729f11c"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.1,
+        "show_quotation_marks": true,
+        "text_align": "text-left",
+        "text_size": 3,
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "card_bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "b9468f08-7247-4ab2-b63f-641d1c0adafd": {
+      "type": "page-faq",
+      "disabled": true,
+      "blocks": {
+        "template--15900897247414__b9468f08-7247-4ab2-b63f-641d1c0adafd-1670216957dbb2664e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
+        "template--15900897247414__b9468f08-7247-4ab2-b63f-641d1c0adafd-1670216957dbb2664e-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "template--15900897247414__b9468f08-7247-4ab2-b63f-641d1c0adafd-1670216957dbb2664e-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "template--15900897247414__b9468f08-7247-4ab2-b63f-641d1c0adafd-1670216957dbb2664e-3": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897247414__b9468f08-7247-4ab2-b63f-641d1c0adafd-1670216957dbb2664e-0",
+        "template--15900897247414__b9468f08-7247-4ab2-b63f-641d1c0adafd-1670216957dbb2664e-1",
+        "template--15900897247414__b9468f08-7247-4ab2-b63f-641d1c0adafd-1670216957dbb2664e-2",
+        "template--15900897247414__b9468f08-7247-4ab2-b63f-641d1c0adafd-1670216957dbb2664e-3"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "bg_color": "#212121",
+        "color": "#ffffff",
+        "border_color": "#faf9f9",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "cd0d8e3c-2f72-4051-9d1a-e6b3fa747b23": {
+      "type": "section-before-after",
+      "settings": {
+        "heading": "Honey, Length and Volume Does Matter!",
+        "description": "<p>Transform your look in under 5 mins. Slide to see the magic of Base Hair, in a matter of minutes.<\/p>",
+        "link_text": "Shop All Extensions",
+        "link_url": "shopify:\/\/collections\/all-extensions",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--large caps",
+        "image_1": "shopify:\/\/shop_images\/IMG_8592_web.jpg",
+        "image_2": "shopify:\/\/shop_images\/IMG_8644_web.jpg",
+        "aspect_ratio": 1.1,
+        "image_position": "center-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "product-with-image": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "fa13bf7c-d6a1-4459-b8fe-244e0763564a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BaseHair-054523.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "783759c6-0668-4174-a1ae-50659f7e4abd": {
+          "type": "text",
+          "settings": {
+            "subheading": "Are you interested in stocking Base Hair?",
+            "subheading_size": 2,
+            "title": "Become a Base Hair Wholesaler",
+            "heading_size": 7,
+            "text": "<ul><li>Competitive wholesale pricing designed to increase your salons revenue.<\/li><li>Exclusive monthly promotions Incentives Wholesale access to the full range of Base Hair extensions, tools and accessories.<\/li><li>Industry leading educational programs and online tutorials, including selling techniques and safe hair extension methods.<\/li><li>Official Base Hair Certificate Seamless, quick and easy online ordering and delivery.<\/li><li>Point of Sale and promotional material.<\/li><li>24 hour + 7 day a week dedicated customer service and support.  <\/li><li>Marketing and PR support.<\/li><\/ul>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#000000",
+            "color": "#ffffff",
+            "button_text": "Get in touch",
+            "button_url": "https:\/\/basehairwholesale.myshopify.com\/",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "fa13bf7c-d6a1-4459-b8fe-244e0763564a",
+        "783759c6-0668-4174-a1ae-50659f7e4abd"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "disabled": true,
+      "blocks": {
+        "icon-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-lock-card",
+            "icon_color": "#545454",
+            "title": "Secure transactions",
+            "text": "Transactions are handled with bank-grade security."
+          }
+        },
+        "icon-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-basket-like",
+            "icon_color": "#545454",
+            "title": "Simple checkout",
+            "text": "Our secure checkout is quick and easy to use."
+          }
+        },
+        "icon-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#545454",
+            "title": "Get in touch",
+            "text": "Have questions? Get in touch with us at any time."
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_size": 20,
+        "icon_alignment": "icon--top",
+        "heading_size": "h6",
+        "bg_color": "#fafafa",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "167339385118d35b4f": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "e0711eda-349f-4399-afb6-16bb7653f285": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e0711eda-349f-4399-afb6-16bb7653f285"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "1099f976-6164-4e4c-9585-79fdc5417d0a": {
+      "type": "section-blog",
+      "settings": {
+        "blog_name": "news",
+        "title": "BASE BLOG",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "bg_color": "#f7f7f7",
+        "color": "#212121",
+        "padding_top": 51,
+        "padding_bottom": 50
+      }
+    },
+    "92791c1d-5999-4f5b-8c59-36ab9dce8ee2": {
+      "type": "section-announcement",
+      "blocks": {
+        "template--15900897247414__92791c1d-5999-4f5b-8c59-36ab9dce8ee2-166917422723fa47bc-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>DREAM HAIR NOW PAY LATER<\/strong> | WITH AFTERPAY, ZIP PAY AND HUMM<\/p>",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--15900897247414__92791c1d-5999-4f5b-8c59-36ab9dce8ee2-166917422723fa47bc-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Create a free shipping countdown<\/strong><\/p>",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--15900897247414__92791c1d-5999-4f5b-8c59-36ab9dce8ee2-166917422723fa47bc-2": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "show_wheel": false,
+            "message": "Spend ||amount|| more for free shipping.",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--15900897247414__92791c1d-5999-4f5b-8c59-36ab9dce8ee2-166917422723fa47bc-3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Create a scrolling marquee or a simple announcement<\/strong><\/p>",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897247414__92791c1d-5999-4f5b-8c59-36ab9dce8ee2-166917422723fa47bc-0",
+        "template--15900897247414__92791c1d-5999-4f5b-8c59-36ab9dce8ee2-166917422723fa47bc-1",
+        "template--15900897247414__92791c1d-5999-4f5b-8c59-36ab9dce8ee2-166917422723fa47bc-2",
+        "template--15900897247414__92791c1d-5999-4f5b-8c59-36ab9dce8ee2-166917422723fa47bc-3"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "slider_speed": 7,
+        "marquee_speed": 100,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e0e3a732-1016-4db1-b417-eb2b1b0a63d2": {
+      "type": "section-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "heading": "Collection",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d28aa6d6-c7c7-4bc4-b76a-55f76c23f871": {
+      "type": "section-collections-list",
+      "blocks": {
+        "template--15900897247414__d28aa6d6-c7c7-4bc4-b76a-55f76c23f871-167661223396a969af-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "title": ""
+          }
+        },
+        "template--15900897247414__d28aa6d6-c7c7-4bc4-b76a-55f76c23f871-167661223396a969af-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-extensions",
+            "title": ""
+          }
+        },
+        "template--15900897247414__d28aa6d6-c7c7-4bc4-b76a-55f76c23f871-167661223396a969af-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "faux-hair",
+            "title": ""
+          }
+        },
+        "template--15900897247414__d28aa6d6-c7c7-4bc4-b76a-55f76c23f871-167661223396a969af-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "base-bridal",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897247414__d28aa6d6-c7c7-4bc4-b76a-55f76c23f871-167661223396a969af-0",
+        "template--15900897247414__d28aa6d6-c7c7-4bc4-b76a-55f76c23f871-167661223396a969af-1",
+        "template--15900897247414__d28aa6d6-c7c7-4bc4-b76a-55f76c23f871-167661223396a969af-2",
+        "template--15900897247414__d28aa6d6-c7c7-4bc4-b76a-55f76c23f871-167661223396a969af-3"
+      ],
+      "settings": {
+        "title": "Featured Collections",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 1.5,
+        "enable_slider": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "84df2acd-060f-4ea8-87f4-fe6be6bb1859",
+    "48d61a5a-1367-4bda-894d-736c3d2fb9a0",
+    "docs",
+    "tabs",
+    "1c281aac-df76-435f-9214-4826ba0c544c",
+    "702301e7-215a-45e0-9828-60167f0439bb",
+    "logos",
+    "30e6a202-ebe1-416e-b6ba-6107cf0331b9",
+    "b9468f08-7247-4ab2-b63f-641d1c0adafd",
+    "cd0d8e3c-2f72-4051-9d1a-e6b3fa747b23",
+    "product-with-image",
+    "icons",
+    "167339385118d35b4f",
+    "1099f976-6164-4e4c-9585-79fdc5417d0a",
+    "92791c1d-5999-4f5b-8c59-36ab9dce8ee2",
+    "e0e3a732-1016-4db1-b417-eb2b1b0a63d2",
+    "d28aa6d6-c7c7-4bc4-b76a-55f76c23f871"
+  ]
+}

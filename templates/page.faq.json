@@ -1,0 +1,353 @@
+{
+  "sections": {
+    "7427b84b-9990-4c27-951b-5966bc89ee02": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--15900897378486__7427b84b-9990-4c27-951b-5966bc89ee02-167135785224cfeed9-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/19_3_Storybw_af0e1870-c666-4f4b-b783-f120da77aa53.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Frequently Asked Questions",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 5,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--15900897378486__7427b84b-9990-4c27-951b-5966bc89ee02-167135785224cfeed9-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Image slide",
+            "heading_size": 11,
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897378486__7427b84b-9990-4c27-951b-5966bc89ee02-167135785224cfeed9-0",
+        "template--15900897378486__7427b84b-9990-4c27-951b-5966bc89ee02-167135785224cfeed9-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "transition": "slide",
+        "arrows_style": true,
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-first": {
+      "type": "page-faq",
+      "blocks": {
+        "faq-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Product"
+          }
+        },
+        "62002e70-e50f-4d8f-8c8f-0f328579f498": {
+          "type": "question",
+          "settings": {
+            "title": "Can I dye my Clip-Ins, Pony, Halo, and Faux Hair?",
+            "content": "<p>Well, technically speaking, you could dye any of those things. But let's be real here - do you really want to mess with that kind of hair magic on your own? <\/p><p><\/p><p>Trust us, it's best to leave the hair dyeing to the professionals. Plus, a little test patch never hurt anyone - just to make sure you're getting the exact shade you want. <\/p>"
+          }
+        },
+        "faq-0": {
+          "type": "question",
+          "settings": {
+            "title": "Is it real hair?",
+            "content": "<p>Yes, absolutely!  Our human hair range is made of 100% real human hair, so you can feel confident that you're getting the real deal. <\/p><p><\/p><p>On the other hand, our Faux Collection is made of synthetic fibers, so it's not quite the same as the real thing. But hey, sometimes you just need a little bit of synthetic magic in your life, right?<\/p>"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "What is the difference between the Human Hair range and the Faux Collection?",
+            "content": "<p>Well, it's simple. The human hair range is made of 100% human hair, while the Faux Collection is synthetic.<\/p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "How do I color match?",
+            "content": "<p>Finding the perfect color match for your hair extensions can be tricky, but we've got you covered! <\/p><p><\/p><p>On the product page, you can use the color range availability to find the closest match to your own hair. <\/p><p><\/p><p>If you're still stuck, send us an image of your hair to 0431 112 476 for a free color match and consultation. We'll help you find the perfect shade to make your new hair extensions look like they were made just for you!\"<\/p>"
+          }
+        },
+        "bb70f984-eb9d-401a-85a0-e647679e72b9": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know which range is the best match for me?",
+            "content": "<p>Consider what your dream hair looks like and what you would like to achieve. Browse our ranges and the images on each page to see if any of them fit your brief. You can also text 0431 112 476 for a free color match and consultation.<\/p>"
+          }
+        },
+        "e1008b53-6eb9-4906-b87d-19c5bbfced46": {
+          "type": "question",
+          "settings": {
+            "title": "Will the Clip-In, The Pony, or The Halo Hair Extensions or Faux Collection damage my hair?",
+            "content": "<p>Nope, not at all! Our hair extensions are made with the highest quality hair and the most advanced technology to ensure that they do not damage your hair. You can use our products with confidence, knowing that your natural hair is safe and healthy.<\/p>"
+          }
+        },
+        "9db0bdc4-51af-4ed1-9020-17f6399ac6b0": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between a Halo and Clip-ins?",
+            "content": "<p>Our Base Hair Halo is a unique product that combines the convenience of a Halo (a small piece of invisible string that secures the hair to your head) with the added volume of Clip-Ins. Just remove the invisible string and attach the extra Velcro clips to transform the Halo into a volumizer. It's like getting two products in one!.<\/p>"
+          }
+        },
+        "194710c4-d6be-4e15-9a7e-31b26aa27adf": {
+          "type": "question",
+          "settings": {
+            "title": "What does double-drawn mean? Are your extensions double-drawn?",
+            "content": "<p>Double drawn hair refers to hair extensions that are all the same length, with no shorter hairs mixed in. At Base Hair, we pride ourselves on offering double drawn hair products to ensure that you get the highest quality extensions possible. So go ahead and indulge in your dream hair - it's worth it!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-heading",
+        "62002e70-e50f-4d8f-8c8f-0f328579f498",
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "bb70f984-eb9d-401a-85a0-e647679e72b9",
+        "e1008b53-6eb9-4906-b87d-19c5bbfced46",
+        "9db0bdc4-51af-4ed1-9020-17f6399ac6b0",
+        "194710c4-d6be-4e15-9a7e-31b26aa27adf"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "57194232-9c96-411d-a3bb-c035e1c37f38": {
+      "type": "page-faq",
+      "blocks": {
+        "template--15900897378486__57194232-9c96-411d-a3bb-c035e1c37f38-167135705172bf351d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Usage and Care"
+          }
+        },
+        "template--15900897378486__57194232-9c96-411d-a3bb-c035e1c37f38-167135705172bf351d-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do I have to wash my hair extensions?",
+            "content": "<p>Yes, it is recommended to wash your hair extensions to keep them clean and healthy. Be sure to use hair extension-safe haircare products and apply a heat protector before styling. Do not air dry the extensions, instead use a blow dryer to style them<\/p>"
+          }
+        },
+        "template--15900897378486__57194232-9c96-411d-a3bb-c035e1c37f38-167135705172bf351d-2": {
+          "type": "question",
+          "settings": {
+            "title": "How do I care for my hair extensions?",
+            "content": "<p>To keep your hair extensions looking and feeling their best, it's important to use the right haircare products. <\/p><p><\/p><p>Avoid using products that contain SLS, Sodium Lauryl Sulfate, Sodium Laureth Sulfate, Alcohol Denat, Ethanol, SD Alcohol 40, Propanol, Isopropyl, and Propyl, as these can be harsh on the hair and may cause damage. <\/p><p><\/p><p>Instead, try using brands like Bondi Boost, KYK Haircare, and Sarah and Jade Haircare. And don't forget to use a heat protector before applying any heat to your hair extensions - this will help to protect them from damage.<\/p>"
+          }
+        },
+        "template--15900897378486__57194232-9c96-411d-a3bb-c035e1c37f38-167135705172bf351d-3": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use heat on my hair extensions?",
+            "content": "<p>Yes, you can use heat on both our human hair range and our Faux Collection, but it's important to use a heat protector to help protect the hair from damage. The human hair range can withstand heat up to 180 degrees, while the Faux Collection can withstand heat up to 130 degrees. Just be sure to use a heat protector and be mindful of the temperature setting on your styling tools to ensure that you don't accidentally damage your hair extensions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897378486__57194232-9c96-411d-a3bb-c035e1c37f38-167135705172bf351d-0",
+        "template--15900897378486__57194232-9c96-411d-a3bb-c035e1c37f38-167135705172bf351d-1",
+        "template--15900897378486__57194232-9c96-411d-a3bb-c035e1c37f38-167135705172bf351d-2",
+        "template--15900897378486__57194232-9c96-411d-a3bb-c035e1c37f38-167135705172bf351d-3"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-second": {
+      "type": "page-faq",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Sure do!<\/p><p><\/p><p>We offer international shipping for a flat rate of $40.00, so you can get your hands on our gorgeous hair no matter where you are<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Can I exchange the product if the color is incorrect?",
+            "content": "<p>Of course! If you find that the color of your hair extensions isn't quite what you were expecting, don't worry - we've got you covered. <\/p><p>Just send us an email at info@basehairextensions.com to organize an exchange. Just make sure that the packaging is untampered with and the hair has not been removed from the packaging. Once we receive your return, our team will review it to confirm if it is eligible for an exchange.<\/p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer click and collect?",
+            "content": "<p>Yes, we have a click and collect point on the Gold Coast, Australia within Pacific Fair Shopping Centre. For more information, please send us a message at 0431 112 476 or email us at <a href=\"mailto:info@basehairextensions.com\"><span style=\"text-decoration:underline\">info@basehairextensions.com<\/span><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1",
+        "question-2",
+        "question-3"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "bg_color": "#fafafa",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-third": {
+      "type": "page-faq",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Payments"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer buy now pay later options?",
+            "content": "<p>Yes, we want to make it as easy as possible for you to get your hands on our gorgeous hair, so we offer a variety of buy now pay later options like Afterpay, Zip Pay, and Humm. <\/p><p>No more waiting to achieve your dream hair!<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer wholesale?",
+            "content": "<p>Absolutely, we have stockists both nationwide and globally. For more information on wholesale options, please email us at <a href=\"mailto:info@basehairextensions.com\"><span style=\"text-decoration:underline\">info@basehairextensions.com<\/span><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1",
+        "question-2"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-lock-card",
+            "icon_color": "#545454",
+            "title": "Secure transactions",
+            "text": "Transactions are handled with bank-grade security."
+          }
+        },
+        "icon-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-basket-like",
+            "icon_color": "#545454",
+            "title": "Simple checkout",
+            "text": "Our secure checkout is quick and easy to use."
+          }
+        },
+        "icon-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#545454",
+            "title": "Get in touch",
+            "text": "Have questions? Get in touch with us at any time."
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_size": 20,
+        "icon_alignment": "icon--top",
+        "heading_size": "h6",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "7427b84b-9990-4c27-951b-5966bc89ee02",
+    "main",
+    "faq-first",
+    "57194232-9c96-411d-a3bb-c035e1c37f38",
+    "faq-second",
+    "faq-third",
+    "icons"
+  ]
+}

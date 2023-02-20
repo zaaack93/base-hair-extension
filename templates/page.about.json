@@ -1,0 +1,494 @@
+{
+  "sections": {
+    "3657f82b-1952-4e32-8d0a-5590c41783fd": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BaseHair-0634_website.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "title": "ABOUT US",
+        "heading_size": 11,
+        "description": "The story of BASE HAIR",
+        "text_size": 5,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "a0564dc2-9b52-4226-acea-e56943168ded": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--15900897050806__a0564dc2-9b52-4226-acea-e56943168ded-1669087077c7b1612c-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3
+          }
+        },
+        "template--15900897050806__a0564dc2-9b52-4226-acea-e56943168ded-1669087077c7b1612c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "BASE HAIR",
+            "text_size": 8
+          }
+        },
+        "template--15900897050806__a0564dc2-9b52-4226-acea-e56943168ded-1669087077c7b1612c-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Base Hair are sought after leaders in the hair industry, redefining the hair extensions business. In the very short time frame since their launch, Base Hair have developed a cult following of global celebrities and influencers, working with International Superstars such as Olivia Pierson, Tammy Hembrow, Emilee Hembrow, Jessika Power, Jessica Brody, Tamara Joy, Mariam Rod and The Veronica’s.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897050806__a0564dc2-9b52-4226-acea-e56943168ded-1669087077c7b1612c-0",
+        "template--15900897050806__a0564dc2-9b52-4226-acea-e56943168ded-1669087077c7b1612c-1",
+        "template--15900897050806__a0564dc2-9b52-4226-acea-e56943168ded-1669087077c7b1612c-2"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 30
+      }
+    },
+    "custom-content-3": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text-3-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p>Base Hair has also been given the big green industry tick of approval by leading global celebrity hair stylists such as Jason Alarcon, Shannon Williams, Fernando Hervas, Kristina Yoursseff, Domenic Pelli and Andi Asmaro, just to name a few from the extensive list.<\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        },
+        "image-3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BAD08860-C57A-4AEB-A057-01D2AEC46009.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "text-3-1",
+        "image-3-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e2e89f11-3205-45c4-97fe-402624cfd900": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--15900897050806__e2e89f11-3205-45c4-97fe-402624cfd900-1669087077c7b1612c-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3
+          }
+        },
+        "template--15900897050806__e2e89f11-3205-45c4-97fe-402624cfd900-1669087077c7b1612c-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "text_size": 8
+          }
+        },
+        "template--15900897050806__e2e89f11-3205-45c4-97fe-402624cfd900-1669087077c7b1612c-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Base Hair have carefully curated an extensive range of luxury hair extensions. The Base Hair extensions range is available in clip-in, tape, weft, halo and ponytail application. All of Base Hair extensions consist of the latest technology of hair available on the market, and are double drawn of the finest and highest quality Russian human hair available. This means that each hair strand is thick from the root to the ends, which allows Base Hair customers to achieve thick and natural looking hair, as well as ensuring longevity.<\/p><p> The Base Hair range was carefully developed and designed to be the base of every look, empowering consumers with the professional touch. The Base Hair extension range is very simple to apply, cut, style, colour and blend. The professional industry in mind, Base Hair was also designed to reduce chair time and maximise profit, no need for a half day in the salon chair, or a stylist spending hours servicing the one client, hair styles such as balayage and adding length and volume can be created in as little as 15 minutes, with absolutely zero damage to the client’s natural hair.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--15900897050806__e2e89f11-3205-45c4-97fe-402624cfd900-1669087077c7b1612c-3": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897050806__e2e89f11-3205-45c4-97fe-402624cfd900-1669087077c7b1612c-0",
+        "template--15900897050806__e2e89f11-3205-45c4-97fe-402624cfd900-1669087077c7b1612c-1",
+        "template--15900897050806__e2e89f11-3205-45c4-97fe-402624cfd900-1669087077c7b1612c-2",
+        "template--15900897050806__e2e89f11-3205-45c4-97fe-402624cfd900-1669087077c7b1612c-3"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "custom-content-6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "review-6-1": {
+          "type": "review",
+          "settings": {
+            "title": "Stephanie Romano",
+            "subheading": "Base Hair Founder and Director.",
+            "review": "“I have used hair extensions for over 15 years, and was so sick of buying poor quality hair with a very short life span, it was literally making my hair fall out. Base Hair has been a long time in the making, I have spent years researching, working with manufactures, reviewing samples, and developing the Base Hair range. I have created Base Hair for me, and if I wouldn’t buy it, I sure wouldn’t expect my customers to. Base Hair has been designed to go the distance, and endure everyday life while continuing to shine. I stand by every strand of Base Hair, and look forward to continuing to develop the most luxurious hair extensions, and hair care accessories on the market”",
+            "text_size": 4,
+            "bio_image": "shopify:\/\/shop_images\/BaseHair-054523.jpg",
+            "review_url": "",
+            "review_link_name": "",
+            "show_quotation_marks": true,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "review-6-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-third",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b939cea6-4e56-4c5e-964e-1e1be95cac57": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--15900897050806__b939cea6-4e56-4c5e-964e-1e1be95cac57-1669087077c7b1612c-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3
+          }
+        },
+        "template--15900897050806__b939cea6-4e56-4c5e-964e-1e1be95cac57-1669087077c7b1612c-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "text_size": 8
+          }
+        },
+        "template--15900897050806__b939cea6-4e56-4c5e-964e-1e1be95cac57-1669087077c7b1612c-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlike competitors, Base Hair offers customisation, with any hair product available to be custom designed to absolutely any requirement. Custom orders are available in the Base Hair signature lengths, and can be ordered in any colour or colour mix. The Base Hair customisation tool also offers the opportunity to add a wave or curl to match the hair's natural shape and texture. To further define themselves from the rest, Base Hair products are packaged in reusable Base Hair branded vegan leather pouches designed to store and maintain the already long life of the hair, and\/or be used in everyday life such as a clutch or beauty bag, the possibilities are endless.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--15900897050806__b939cea6-4e56-4c5e-964e-1e1be95cac57-1669087077c7b1612c-3": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897050806__b939cea6-4e56-4c5e-964e-1e1be95cac57-1669087077c7b1612c-0",
+        "template--15900897050806__b939cea6-4e56-4c5e-964e-1e1be95cac57-1669087077c7b1612c-1",
+        "template--15900897050806__b939cea6-4e56-4c5e-964e-1e1be95cac57-1669087077c7b1612c-2",
+        "template--15900897050806__b939cea6-4e56-4c5e-964e-1e1be95cac57-1669087077c7b1612c-3"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image-2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BASE_products1456_white.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "text-2-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p>The Base Hair team know, the Base Hair customer wants to complement their hair extensions purchase with trending accessories, and have designed the viral sensation hot tool, Wave by Base Wave Wand as well as the Base Hair hair brush and Silk Pillowcase ranges.<\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "image-2-1",
+        "text-2-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom-content-5": {
+      "type": "section-custom-content",
+      "blocks": {
+        "ba0c1753-c6e8-45ef-9053-99fa0649da18": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p>Specialising in 28-inch hair, Base Hair customers can very easily create their favourite celebrity glam look. Base Hair authorises their customers to change, whether it be celebrity or fantasy. Base Hair extensions are powerful and allow customers to feel just this, in any way they would like to.<\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        },
+        "image-5-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_f3582574-d626-4c04-a289-1b64f099e160.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "ba0c1753-c6e8-45ef-9053-99fa0649da18",
+        "image-5-2"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7fbff4b3-98fe-488a-83eb-9ab5a879eaee": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "They say diamonds are a girls best friend. They have obviously never owned Base Hair Extensions.",
+            "text_size": 7
+          }
+        },
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP ALL",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-1",
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7": {
+      "type": "section-reviews",
+      "disabled": true,
+      "blocks": {
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-0": {
+          "type": "review",
+          "settings": {
+            "title": "Jeremy Usborne",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        },
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-1": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "title": "Willy Bridge",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        },
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-2": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "title": "Kenneth Powell",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-0",
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-1",
+        "template--15900897050806__c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7-1669087078fc7c517c-2"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
+        "text_align": "text-left",
+        "text_size": 4,
+        "bg_color": "",
+        "color": "",
+        "card_bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "3657f82b-1952-4e32-8d0a-5590c41783fd",
+    "a0564dc2-9b52-4226-acea-e56943168ded",
+    "custom-content-3",
+    "e2e89f11-3205-45c4-97fe-402624cfd900",
+    "custom-content-6",
+    "b939cea6-4e56-4c5e-964e-1e1be95cac57",
+    "custom-content-2",
+    "custom-content-5",
+    "7fbff4b3-98fe-488a-83eb-9ab5a879eaee",
+    "main",
+    "c75bca2b-8b3a-4231-b6c2-a3ed016bb3a7"
+  ]
+}

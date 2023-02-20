@@ -1,0 +1,72 @@
+{%- liquid
+  assign animation_name = 'drawer-items-fade'
+  assign animation_name_images = 'drawer-images-fade'
+  assign animation_duration = 500
+  assign animation_delay = 200
+  assign animation_delay_increment = 50
+-%}
+<div data-api-content>
+  <div class="product-quick-add__slides{% if product.media.size == 2 %} product-quick-add__slides--2{% endif %}"
+    data-product-single-media-group
+    {% if product.media.size > 2 %}data-product-slideshow{% endif %}
+    data-animation="{{ animation_name_images }}"
+    data-animation-duration="{{ animation_duration }}"
+    data-animation-delay="{{ animation_delay }}"
+    {%- assign animation_delay = animation_delay | plus: animation_delay_increment -%}
+  >
+    {%- if product.media.size > 0 -%}
+      {%- for media in product.media -%}
+        {%- render 'media', media: media, featured_media: featured_media, enable_video_looping: true, sectionkey: section.id -%}
+      {%- endfor -%}
+
+      {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
+      {%- if first_3d_model -%}
+        <button
+          class="btn btn--outline btn--neutral btn--ar product-quick-add__view-in-space"
+          data-shopify-xr
+          data-shopify-model3d-id="{{ first_3d_model.id }}"
+          data-shopify-title="{{ product.title | strip_html }}"
+          data-shopify-xr-hidden>
+          {%- render 'icon-media-model' -%}
+          <span class="product-quick-add__view-in-space-text">{{ 'products.general.view_space' | t }}</span>
+        </button>
+      {%- endif -%}
+    {%- else -%}
+      <div class="product__slide">
+        <div class="product__photo">
+          <div class="lazy-image" style="padding-top: 100%; background-image: url('{{ product.featured_image | img_url: '1x1' }}');">
+            <img
+              class="lazyload"
+              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+              data-src="{{ product.featured_image | img_url: '720x' }}"
+              data-aspectratio="{{ product.featured_image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ product.title | strip_html | escape }}">
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+
+  <div class="product-quick-add__form">
+    <div class="product-quick-add__form__inner" data-form-wrapper>
+      {%- liquid
+        assign product_form_id = 'product-form-upsell-' | append: section.id | append: '-' | append: product.id
+      
+        render 'product-title' product: product, section_id: section.id, is_title_linked: true, animation_name: animation_name, animation_delay: animation_delay, animation_duration: animation_duration
+        assign animation_delay = animation_delay | plus: animation_delay_increment
+
+        render 'product-siblings' product: product, uniq_id: product_form_id, block: block, metafields: true, quick_add_product: true, animation_name: animation_name, animation_delay: animation_delay, animation_duration: animation_duration
+        assign animation_delay = animation_delay | plus: animation_delay_increment
+
+        render 'product-form' product: product, section_id: section.id, enable_quantity_selector: false, show_product_description: true, uniq_id_form: product_form_id, animation_name: animation_name, animation_delay: animation_delay, animation_duration: animation_duration
+      -%}
+    </div>
+  </div>
+
+  {% unless product == empty %}
+    <script type="application/json" data-product-json>
+      {{ product | json }}
+    </script>
+  {% endunless %}
+</div>

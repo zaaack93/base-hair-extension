@@ -1,0 +1,457 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "89b2616b-e1a0-46e2-964b-43f919e975a7": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+          }
+        },
+        "price_and_title": {
+          "type": "price_and_title",
+          "settings": {
+            "subheading_option": "none",
+            "show_rating": false,
+            "enable_star_rating": false,
+            "show_rating_count": false
+          }
+        },
+        "4c43c7fd-e888-44d7-9f12-57508db34b17": {
+          "type": "text",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.short_description_1.value }}<\/p>"
+          }
+        },
+        "d824d324-6a7f-434a-b7a2-fac55b433aa9": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bh-product-benefits\">\n{{ product.metafields.details.benefits }}\n<\/div>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "size_page": "size-guide",
+            "colour_page": "colour-guide",
+            "show_quantity": true,
+            "show_remaining": true,
+            "show_payment_button": false,
+            "subscriptions_enable_selectors": false
+          }
+        },
+        "2a121948-8081-447e-a67f-2a0160dd4ddc": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_color": "#545454",
+            "title": "FREE 2-DAY DELIVERY +$150 (AUS)",
+            "width": "full"
+          }
+        },
+        "efb55f20-2831-4f0a-ae56-a85e72648943": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_color": "#545454",
+            "title": "QUICK & EASY RETURNS",
+            "width": "full"
+          }
+        },
+        "b34fc9a5-3eef-41c0-bfc1-0cba515c6128": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-rating",
+            "icon_color": "#545454",
+            "title": "FREE BONDI BOOST WITH EVERY ORDER",
+            "width": "full"
+          }
+        },
+        "840a6947-a921-4f44-b9b4-1bdf34571703": {
+          "type": "upsell",
+          "settings": {
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "accordions",
+            "title_1": "{{ product.metafields.custom.tab_1_title.value }}",
+            "raw_content_1": "<p>{{ product.metafields.custom.tab_1_content | metafield_tag }}<\/p>",
+            "title_2": "{{ product.metafields.custom.tab_2_title.value }}",
+            "raw_content_2": "<p>{{ product.metafields.custom.tab_2_content | metafield_tag }}<\/p>",
+            "title_3": "{{ product.metafields.custom.tab_3_title.value }}",
+            "raw_content_3": "<p>{{ product.metafields.custom.tab_3_content | metafield_tag }}<\/p>",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "89b2616b-e1a0-46e2-964b-43f919e975a7",
+        "price_and_title",
+        "4c43c7fd-e888-44d7-9f12-57508db34b17",
+        "d824d324-6a7f-434a-b7a2-fac55b433aa9",
+        "form",
+        "2a121948-8081-447e-a67f-2a0160dd4ddc",
+        "efb55f20-2831-4f0a-ae56-a85e72648943",
+        "b34fc9a5-3eef-41c0-bfc1-0cba515c6128",
+        "840a6947-a921-4f44-b9b4-1bdf34571703",
+        "pickup",
+        "tabs"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "grid-1",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "block_padding": 30,
+        "padding_top": 50,
+        "padding_bottom": 20
+      }
+    },
+    "7fe669eb-0024-4c96-99a1-d7a675696260": {
+      "type": "section-reviews",
+      "disabled": true,
+      "blocks": {
+        "template--15900897214646__7fe669eb-0024-4c96-99a1-d7a675696260-1671149605553caf1c-0": {
+          "type": "review",
+          "settings": {
+            "title": "Effie K.",
+            "subheading": "Verified Customer",
+            "review_text": "I’m absolutely obsessed with my extensions!! I have never had clip ins that blend so beautifully and look so natural!",
+            "featured_image": "shopify:\/\/shop_images\/E1lfgihGh_orig.jpg",
+            "review_url": ""
+          }
+        },
+        "template--15900897214646__7fe669eb-0024-4c96-99a1-d7a675696260-1671149605553caf1c-1": {
+          "type": "review",
+          "settings": {
+            "title": "Kea Rogers",
+            "subheading": "Verified Customer",
+            "review_text": "Wow! I'm so happy with the quality. I've always added clip in extensions for a little bit of volume, base hair has made the extensions so easy to style and blend with your natural hair.",
+            "featured_image": "shopify:\/\/shop_images\/N17e_TY-kmh_orig.jpg",
+            "review_url": ""
+          }
+        },
+        "template--15900897214646__7fe669eb-0024-4c96-99a1-d7a675696260-1671149605553caf1c-2": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "title": "Kenneth Powell",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897214646__7fe669eb-0024-4c96-99a1-d7a675696260-1671149605553caf1c-0",
+        "template--15900897214646__7fe669eb-0024-4c96-99a1-d7a675696260-1671149605553caf1c-1",
+        "template--15900897214646__7fe669eb-0024-4c96-99a1-d7a675696260-1671149605553caf1c-2"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.1,
+        "show_quotation_marks": true,
+        "text_align": "text-left",
+        "text_size": 4,
+        "bg_color": "#f7f7f7",
+        "color": "#000000",
+        "card_bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "1bd9d92a-d822-49ff-b62b-d1a8492831a9": {
+      "type": "page-faq",
+      "blocks": {
+        "79837bca-b11d-4643-925d-c23f37c3c09d": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_title.value }}"
+          }
+        },
+        "1a494fcd-b5fe-422a-95db-ec3788587c27": {
+          "type": "question",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_question_1.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_1 | metafield_tag }}<\/p>"
+          }
+        },
+        "a2f59f1c-20f9-4072-9f6c-1dce71da6f53": {
+          "type": "question",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_question_2.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_2 | metafield_tag }}<\/p>"
+          }
+        },
+        "template--15900897214646__1bd9d92a-d822-49ff-b62b-d1a8492831a9-1671593392a57f776d-1": {
+          "type": "question",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_question_3.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_3 | metafield_tag }}<\/p>"
+          }
+        },
+        "template--15900897214646__1bd9d92a-d822-49ff-b62b-d1a8492831a9-1671593392a57f776d-2": {
+          "type": "question",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_question_4.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_4 | metafield_tag }}<\/p>"
+          }
+        },
+        "d29f0d9d-f706-42f2-af15-d66f2d338ec4": {
+          "type": "question",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_question_5.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_5 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "79837bca-b11d-4643-925d-c23f37c3c09d",
+        "1a494fcd-b5fe-422a-95db-ec3788587c27",
+        "a2f59f1c-20f9-4072-9f6c-1dce71da6f53",
+        "template--15900897214646__1bd9d92a-d822-49ff-b62b-d1a8492831a9-1671593392a57f776d-1",
+        "template--15900897214646__1bd9d92a-d822-49ff-b62b-d1a8492831a9-1671593392a57f776d-2",
+        "d29f0d9d-f706-42f2-af15-d66f2d338ec4"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "bg_color": "#212121",
+        "color": "#ffffff",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "4147d777-7466-4751-9436-b261c6bb4ebc": {
+      "type": "section-before-after",
+      "settings": {
+        "heading": "Transform your look in under 5 mins",
+        "description": "<p>Slide to see the magic of Base Hair, in a matter of minutes.<\/p>",
+        "link_text": "",
+        "link_url": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "image_1": "shopify:\/\/shop_images\/Slider1.jpg",
+        "image_2": "shopify:\/\/shop_images\/Slider2.jpg",
+        "aspect_ratio": 1.1,
+        "image_position": "center-center",
+        "width": "wrapper",
+        "bg_color": "#212121",
+        "color": "#f7f7f7",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "9856b8a9-a75e-48a7-87d8-7773a9c06190": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_link_bg": "",
+        "video_link": "",
+        "image": "shopify:\/\/shop_images\/unnamed_f3582574-d626-4c04-a289-1b64f099e160.jpg",
+        "bg_position": "center-center",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "Video",
+        "heading_size": 8,
+        "description": "Tell your brand's story through images.",
+        "text_size": 3,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "View products",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "enable_product_reviews": false,
+        "enable_accordion": true,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "custom": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "custom-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "custom-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": 3,
+            "title": "Product feature",
+            "heading_size": 7,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f7f7f7",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "custom-0",
+        "custom-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "padding": true,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2404d564-4887-4fd5-82b6-4da194fc9151": {
+      "type": "section-video",
+      "settings": {
+        "video_link_bg": "",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=QPDMYNIL5_U",
+        "image": "shopify:\/\/shop_images\/IMG_8317_copy2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/19_3_Storybw_af0e1870-c666-4f4b-b783-f120da77aa53.jpg",
+        "bg_position": "center-center",
+        "desktop_height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "How to Apply",
+        "heading_size": 8,
+        "description": "Follow this guide to apply Clip-In Hair Extensions - Base Hair",
+        "text_size": 3,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "related_products_enable": true,
+        "limit": 4,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 4,
+        "product_recently_heading": "Recently viewed",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "424f32bd-7eef-4c72-9d44-2a0ff9dbccfd": {
+      "type": "section-split-hero",
+      "disabled": true,
+      "settings": {
+        "image_height": "image-height-hero",
+        "mobile_layout": "stacked",
+        "image_desktop_left": "shopify:\/\/shop_images\/IMG_8132_web.jpg",
+        "bg_position_left": "center-top",
+        "image_desktop_right": "shopify:\/\/shop_images\/IMG_8259_web.jpg",
+        "bg_position_right": "center-top",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "title": "Split images",
+        "heading_size": 8,
+        "description": "Tell your brand's story through images.",
+        "text_size": 3,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "View products",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7fe669eb-0024-4c96-99a1-d7a675696260",
+    "1bd9d92a-d822-49ff-b62b-d1a8492831a9",
+    "4147d777-7466-4751-9436-b261c6bb4ebc",
+    "9856b8a9-a75e-48a7-87d8-7773a9c06190",
+    "reviews",
+    "custom",
+    "2404d564-4887-4fd5-82b6-4da194fc9151",
+    "loox-product-reviews-app-section",
+    "related",
+    "424f32bd-7eef-4c72-9d44-2a0ff9dbccfd"
+  ]
+}

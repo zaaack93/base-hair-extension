@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "3657f82b-1952-4e32-8d0a-5590c41783fd": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BaseHair-0634_website.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "TAKE THE QUIZ",
+        "heading_size": 8,
+        "description": "We get it. Choosing the right hair extensions can be daunting. Take the quiz below to point you in the right direction.",
+        "text_size": 5,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "16690926662894557e": {
+      "type": "apps",
+      "blocks": {
+        "81d988b3-bc9d-46f2-8ce0-42ca8db0c931": {
+          "type": "shopify:\/\/apps\/quiz-kit\/blocks\/quiz\/0b04f315-849a-4507-8339-7be41cc01813",
+          "settings": {
+            "key": "eeBwz-5lva"
+          }
+        }
+      },
+      "block_order": [
+        "81d988b3-bc9d-46f2-8ce0-42ca8db0c931"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "7fbff4b3-98fe-488a-83eb-9ab5a879eaee": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "They say diamonds are a girls best friend. They have obviously never owned Base Hair Extensions.",
+            "text_size": 7
+          }
+        },
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP ALL",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-1",
+        "template--15900897050806__7fbff4b3-98fe-488a-83eb-9ab5a879eaee-1669087077c7b1612c-3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "3657f82b-1952-4e32-8d0a-5590c41783fd",
+    "16690926662894557e",
+    "7fbff4b3-98fe-488a-83eb-9ab5a879eaee",
+    "main"
+  ]
+}
