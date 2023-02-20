@@ -35,6 +35,10 @@
       as="script">
     <link
       rel="preload"
+      href="{{ 'jquery.min.js' | asset_url }}"
+      as="script">
+    <link
+      rel="preload"
       href="{{ 'theme.css' | asset_url }}"
       as="style">
     <link
@@ -264,6 +268,7 @@
     <script src="{{ 'lazysizes.js' | asset_url }}" async="async"></script>
     <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'rdc.js' | asset_url }}" defer="defer"></script>
 
     {%- comment -%}

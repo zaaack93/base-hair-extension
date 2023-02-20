@@ -15,3 +15,62 @@
     background-color: transparent;
     border: 1px solid #000;
 }
+
+.you-studio-wrapper .globo-formbuilder .globo-form .footer .submit{
+        width: 100%;
+    max-width: 260px;
+    --btn-top: 16px;
+    --btn-left: 22px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    --btn-bg: var(--COLOR-PRIMARY);
+    --btn-text: var(--COLOR-PRIMARY-OPPOSITE);
+    --btn-border: var(--COLOR-PRIMARY);
+    --btn-bg-hover: var(--COLOR-PRIMARY-HOVER);
+    --btn-text-hover: var(--COLOR-PRIMARY-OPPOSITE);
+    --btn-shadow: var(--COLOR-PRIMARY-FADE);
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: calc(var(--font-3) * var(--FONT-ADJUST-BODY));
+    line-height: 1.5;
+    font-family: inherit;
+    transition: .25s ease-out;
+    transition-property: color,background,border,box-shadow;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid var(--btn-bg);
+    border-radius: var(--RADIUS);
+    font-weight: var(--FONT-WEIGHT-BODY);
+    cursor: pointer;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    padding: var(--btn-top) var(--btn-left);
+    word-break: break-word;
+    max-width: none;
+    font-size: 13.2px;
+    font-family: 'Avenir Next';
+    font-stretch: 100%;
+    font-weight: 400;
+    letter-spacing: 1.584px;
+    line-height: 19.8px;
+    max-width: 260px;
+    text-size-adjust: 100%;
+    width: 260px;
+    will-change: transform,opacity;
+}
+@media only screen and (max-width: 749px){
+    .you-studio-wrapper .globo-formbuilder .globo-form .footer .submit{
+        letter-spacing: 1.32px;
+        line-height: 16.5px;
+        padding: 12px 18px;
+        font-size: 11px;
+    }
+}
