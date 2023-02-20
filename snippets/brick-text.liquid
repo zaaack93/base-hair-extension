@@ -1,12 +1,12 @@
 {% comment %}
-    Renders text block for custom content or newsletter sections
+Renders text block for custom content or newsletter sections
 
-    Accepts:
-    - block: {Object} Block object
-    - animation_anchor: {String} ID of the element that will trigger animations
+Accepts:
+- block: {Object} Block object
+- animation_anchor: {String} ID of the element that will trigger animations
 
-    Usage:
-    {% render 'brick-text', block: block, animation_anchor: animation_anchor %}
+Usage:
+{% render 'brick-text', block: block, animation_anchor: animation_anchor %}
 {% endcomment %}
 
 {%- liquid
@@ -17,6 +17,7 @@
   assign show_social_links = block.settings.show_social_links
   assign bg_color = block.settings.bg_color
   assign text_color = block.settings.color
+  assign form_html_id = block.settings.form_html_id
   assign padding_class = ''
   assign color_difference = bg_color | color_difference: settings.bg_color
   assign color_brightness = text_color | color_brightness
@@ -45,13 +46,20 @@
   {%- endunless -%}
 {%- endcapture -%}
 
-<div class="brick__block"{% if style != blank %} style="{{ style }}"{% endif %} data-prevent-transparent-header {{ block.shopify_attributes }}>
+<div
+  class="brick__block"
+  {% if style != blank %}
+  style="{{ style }}"
+  {% endif %}
+  data-prevent-transparent-header
+  {{ block.shopify_attributes }}>
   <div class="brick__block__text{{ padding_class }}" data-overflow-frame>
     <div class="brick__block__text__inner" data-overflow-content>
       <div class="text__standard {{ block.settings.align_text }}">
         {%- if subheading != blank -%}
           {%- assign font_size_class = block.settings.subheading_size | prepend: 'body-size-' -%}
-          <p class="standard__subheading {{ font_size_class }}"
+          <p
+            class="standard__subheading {{ font_size_class }}"
             data-aos="hero"
             data-aos-anchor="{{ animation_anchor }}"
             data-aos-order="1">{{ subheading }}</p>
@@ -59,7 +67,8 @@
 
         {%- if title != blank -%}
           {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
-          <h2 class="standard__heading {{ font_size_class }}"
+          <h2
+            class="standard__heading {{ font_size_class }}"
             data-aos="hero"
             data-aos-anchor="{{ animation_anchor }}"
             data-aos-order="2">{{ title }}</h2>
@@ -68,14 +77,16 @@
         {%- if text != blank -%}
           {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
           {%- assign text_columns_class = block.settings.text_columns | prepend: 'columns--' -%}
-          <div class="standard__rte {{ font_size_class }} {{ text_columns_class }}"
+          <div
+            class="standard__rte {{ font_size_class }} {{ text_columns_class }}"
             data-aos="hero"
             data-aos-anchor="{{ animation_anchor }}"
             data-aos-order="3">{{ text }}</div>
         {%- endif -%}
 
         {%- if button_text != blank -%}
-          <a href="{{ block.settings.button_url }}"
+          <a
+            href="{{ block.settings.button_url }}"
             class="{{ block.settings.button_style }} {{ block.settings.button_color }}"
             data-aos="hero"
             data-aos-anchor="{{ animation_anchor }}"
@@ -84,8 +95,13 @@
             {%- if settings.show_arrow -%}
               {% render 'icon-arrow-right-alt' %}
             {%- endif -%}
-            </a>
+          </a>
         {%- endif -%}
+        {% if form_html_id != blank %}
+          <div class="you-studio-wrapper">
+            {{ form_html_id }}
+          </div>
+        {% endif %}
 
         {%- if show_social_links -%}
           {%- render 'social-icons', animation_anchor: animation_anchor, animation_order: 5 -%}

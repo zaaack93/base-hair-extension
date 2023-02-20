@@ -92,11 +92,12 @@
             "align_text": "text-left",
             "bg_color": "#f7f7f7",
             "color": "#000000",
-            "button_text": "Upload your image",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "hero__btn btn btn--large caps",
-            "show_social_links": false
+            "show_social_links": false,
+            "form_html_id": "<div class=\"globo-formbuilder\" data-id=\"MTA2OTM5\"><\/div>"
           }
         },
         "template--15927558570166__9e03567e-dc82-45da-b82e-1492b69e3337-1669091557de137bbc-0": {
@@ -130,17 +131,6 @@
         "width": "wrapper--full",
         "padding": false,
         "borders": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "41958e84-0875-41e2-b096-1719e989f715": {
-      "type": "custom-html",
-      "settings": {
-        "html": "<div class=\"globo-formbuilder\" data-id=\"MTA2OTM5\"><\/div>",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -215,7 +205,6 @@
     "f5cdeee6-bf10-431a-91d9-8cca124373c9",
     "main",
     "9e03567e-dc82-45da-b82e-1492b69e3337",
-    "41958e84-0875-41e2-b096-1719e989f715",
     "d15ef0aa-655c-4fce-94e0-930d045ec0ba",
     "3af81c85-7c74-4dc5-b12f-3a88a38aa16e"
   ]
